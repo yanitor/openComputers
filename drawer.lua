@@ -5,7 +5,7 @@ side = 3
 dInfo = drawer.getInventorySize(side)
 
 for i=0,drawer.getInventorySize(side) do
-    print(drawer.getStackInSlot(i))
+    print(drawer.getStackInSlot(side, i))
 end
 
 --test
