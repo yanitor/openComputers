@@ -1,4 +1,4 @@
-component = require("component)
+component = require("component")
 drawer = component.inventory_controller
 side = 3
 
